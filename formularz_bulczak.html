@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>formularz</title>
+	</head>
+	<body>
+		<center>
+			<h1> Opinia o tostach </h1>
+			<br>
+			<table>
+				<tr>
+					<td>
+						Email <br>
+						<input naSme="email" size="10">
+					</td>
+					<th rowspan="2">
+						<button type="rodzaj">Zaloguj</button>
+					</th>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td rowspan="2">
+						<center>
+							Jaki syr? <br>
+							<select name="nazwa">
+								<option>Gouda</option>
+								<option>Cheddar</option>
+								<option>Mozarella</option>
+								<option>Parmezan</option>
+							</select>
+						</center>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Imię<br>
+						<input name="imie" size="10">
+					</td>
+					<td>
+						Nazwisko<br>
+						<input name="nazwisko" size="10">
+					</td>
+					<td height="70" width="100">
+					</td>
+					<td height="70" width="100">
+						<center>
+							kepucz?
+							<select name="nazwa">
+								<option>Tak</option>
+								<option>Nie</option>
+								<option>Manojez</option>
+								<option>Thousand Islands</option>
+							</select>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table>
+					<form enctype="text/plain" action="mailto:jbulczak8@gmail.com" method="Post"> 
+						<tr>
+							<td colspan="2" width="300">
+								Twoja ocenka tosciwa<br>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="300">
+								&nbsp
+								<input type="radio" name="srednia" checked>1</input>
+								&nbsp &nbsp
+								<input type="radio" name="srednia">2</input>
+								&nbsp &nbsp
+								<input type="radio" name="srednia">3</input>
+								&nbsp &nbsp
+								<input type="radio" name="srednia">4</input>
+								&nbsp &nbsp
+								<input type="radio" name="srednia">5</input>
+							</td>
+						</tr>	
+						<tr>
+							<td colspan="2" width="300" style="background-color: red;">
+								Czy jestes zadowolony z funkcjonowania tostera
+							</td>
+						</tr>
+						<tr>
+							<td width="300">	
+								<input type="radio" name="szkola" checked>Tak</input> <br>
+								<input type="radio" name="szkola" checked>Nie</input> <br>
+								<input type="radio" name="szkola" checked>Wole nie mowic</input><br>
+							</td>
+					</tr>
+							<tr>
+							<td colspan="2" width="300" style="background-color: red;">
+							Jakie sa najczestsze skladniki w tosciwach?
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="300">
+								<input type="checkbox" name="tosciwo">Szynka</input>
+								&nbsp
+								<input type="checkbox" name="tosciwo">Syr</input>
+								&nbsp
+								<input type="checkbox" name="tosciwo"></input>
+								&nbsp
+								<input type="checkbox" name="tosciwo">nie wiem</input>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="300" style="background-color: red;">
+								Jaki toster bys wybral?
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name="tosciwo">PROFI COOK PC-ST 1092</input><br>
+								<input type="checkbox" name="tosciwo">MPM MOP-43M 3w1</input><br>
+								<input type="checkbox" name="tosciwo">DOMO DO9136C 3w1</input><br>
+								<p style="background-color: red;">
+									Jesli nie lubisz tostow uzasadnij czemu: <br>
+								</p>
+								<textarea name="nazwa" cols="44" rows="6"></textarea>
+							</td>
+							</td>
+						</tr>
+					</form>	
+				</table>
+		</center>
+			<p style="text-align: right">
+				<button type="reset">Wyczyść wszystko</button>
+				<button type="submit">Wyślij</button><br>
+			</p>	
+		<A HREF="index.html"> wstecz </A> 
+	</body>
+</html>
